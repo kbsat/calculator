@@ -96,7 +96,7 @@
                         AlwaysOnTopClick="TitleBarAlwaysOnTopButtonClick"
                         IsAlwaysOnTopMode="{x:Bind Model.IsAlwaysOnTop, Mode=OneWay}"/>
 
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="1" Background="Yellow">
             <Border x:Name="CalcHolder">
                 <!-- PLACEHOLDER!!!! This is where the calculator goes when it is delay loaded -->
             </Border>
